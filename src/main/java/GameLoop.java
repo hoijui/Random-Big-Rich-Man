@@ -19,7 +19,7 @@ import javax.swing.JFrame;
 
 public class GameLoop implements Runnable {
 
-	private static final double speedModifier = 1.0;
+	private static final double speedModifier = 0.1;
 
 	public JFrame jf;
 	public Game mygame;
